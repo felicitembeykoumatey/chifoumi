@@ -78,15 +78,15 @@
 	<%
 		if(resultat==0)
 		{
-			out.write("Egalité!");
+			out.write("Egalité! 🙃"); // out.write permet d'Afficher résultat 
 		}
 		else if(resultat==1)
 		{
-			out.write("Vous avez gagné!!");
+			out.write("Vous avez gagné 😄!!");
 		}
 		else
 		{
-			out.write("Vous avez perdu!");
+			out.write("Vous avez perdu! 🥴");
 		}
 	%>
 	<div>
